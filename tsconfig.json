@@ -3,7 +3,6 @@
     "target": "ES2020",
     "module": "ESNext",
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
-    "jsx": "react-jsx",
     "moduleResolution": "bundler",
     "strict": true,
     "esModuleInterop": true,
@@ -11,5 +10,13 @@
     "noEmit": true,
     "isolatedModules": true
   },
-  "include": ["src"]
+  "include": [
+    "src/main.ts",
+    "src/app.ts",
+    "src/crypto.ts",
+    "src/form.ts",
+    "src/store.ts",
+    "src/types.ts",
+    "src/ui.ts"
+  ]
 }
