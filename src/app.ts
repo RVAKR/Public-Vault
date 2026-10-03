@@ -3,10 +3,10 @@
  */
 
 import { vault } from './store';
-import type { Credential } from './store';
+import type { Credential, ArchivedCredential } from './store';
 import {
   icons, initToast, toast, credCard,
-  detailField, showModal, copyText, esc
+  detailField, showModal, copyText, esc, categoryIcon
 } from './ui';
 import { openCredentialForm } from './form';
 
