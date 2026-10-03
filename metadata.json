@@ -1,0 +1,7 @@
+{
+  "name": "Personal Credential & Document Vault",
+  "description": "Zero-knowledge, zero-cost personal credential manager, secure document vault, and 2FA authenticator with client-side AES-256-GCM encryption.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
